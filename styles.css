@@ -1,9 +1,61 @@
-.attribution { font-size: 11px; text-align: center; margin-top: 15px;}
+.attribution { font-size: 11px; text-align: center; margin-top: 40px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+* {
+    box-sizing:border-box;
+}
+
+
+
+body {
+    background-color: #D5E1EF;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .card {
-    border: solid;
-    width: 200px;
-    height: 300px;
+    width: 320px;
+    height: 499px;
     margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: #0000000D 0 25px 25px 0px;
+    padding: 16px;
+}
+
+.qr-code {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.text {
+    margin: auto;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: Outfit, sans;
+    font-weight: bold;
+    color: #1F314F;
+    text-align: center;
+    line-height: 120%;
+    margin: 16px
+}
+
+p {
+    font-size: 15px;
+    font-family: Outfit, sans-serif;
+    font-weight: normal;
+    color: #68778D;
+    text-align: center;
+    line-height: 140%;
+    margin: 16px;
 }
