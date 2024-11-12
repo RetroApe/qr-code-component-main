@@ -3,7 +3,7 @@
 
 
 * {
-    box-sizing:border-box;
+    box-sizing:border-box;  
 }
 
 
@@ -37,7 +37,7 @@ body {
 }
 
 .text {
-    margin: auto;
+    margin: 16px;
 }
 
 h2 {
@@ -47,7 +47,8 @@ h2 {
     color: #1F314F;
     text-align: center;
     line-height: 120%;
-    margin: 16px
+    letter-spacing: 0px;
+    margin: 0;
 }
 
 p {
@@ -57,5 +58,6 @@ p {
     color: #68778D;
     text-align: center;
     line-height: 140%;
-    margin: 16px;
+    letter-spacing: 0.2px;
+    margin: 16px 0;
 }
